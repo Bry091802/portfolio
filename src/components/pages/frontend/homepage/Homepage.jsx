@@ -1,18 +1,18 @@
 import React from "react";
 import Header from "./Header";
 import Banner from "./Banner";
-import Education from "./Education";
+import Work from "./Work";
+import Footer from "./Footer";
 
 const Homepage = () => {
   return (
     <>
-    
-        <div className="">
-          <Header />
-          <Banner/>
-          <Education/>
-        </div>
-  
+      <div className="">
+        <Header />
+        <Banner />
+        <Work />
+        <Footer />
+      </div>
     </>
   );
 };
